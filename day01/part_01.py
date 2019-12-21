@@ -12,5 +12,5 @@ acc = 0
 for line in open('input', 'r'):
     acc += calc_fuel(int(line.strip()))
 
-print(f'Solution of first day is: {acc}')
+print(f'Solution of first part is: {acc}')
 
