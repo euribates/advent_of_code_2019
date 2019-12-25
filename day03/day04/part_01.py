@@ -35,6 +35,6 @@ for num in range(367479, 893698+1):
     assert(len(s) == 6)
     if digits_never_decrease(s) and two_adjacent_digits_are_the_same(s):
         counter += 1
-        print(s)
+        # print(s)
 
 print(f'Solution for part 1 is: {counter}')
